@@ -18,7 +18,7 @@
 			</div>
 		</section>
 		<section id="spin">
-			<h1>Instituições </h1>
+			<h1>Instituições Parceiras</h1>
 			<div class="text-slider">
 				<div class="text-slider__inner">
 					<span class="fake-bullet"><img src="/assets/img/bb.png" alt="logo"></span>
