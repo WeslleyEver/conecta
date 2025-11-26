@@ -68,7 +68,7 @@ p {
 button {
 	font-size: medium;
 	cursor: pointer;
-	padding: 18px 25px;
+	padding: 22px 25px;
 	border-radius: 4px;
 	transition: all;
 }
