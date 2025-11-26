@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . 'config.php';
+require_once __DIR__ . '/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +23,6 @@ require_once __DIR__ . 'config.php';
 
 	<?php include INCLUDES_PATH . '/main.php'?>
 </body>
-<script src="/js/main.js" <?= $time ?>></script>
+<script src="js/main.js" <?= $time ?>></script>
 
 </html>
