@@ -21,7 +21,7 @@
 			<h1>Instituições Parceiras</h1>
 			<div class="text-slider">
 				<div class="text-slider__inner">
-					<span class="fake-bullet"><img src="/assets/img/bb.png" alt="logo"></span>
+					<span class="fake-bullet"><img src="assets/img/bb.png" alt="logo"></span>
 					<span class="fake-bullet"><img src="/assets/img/natura.png" alt="logo"></span>
 
 					<span class="fake-bullet"><img src="/assets/img/vale.png" alt="logo"></span>
