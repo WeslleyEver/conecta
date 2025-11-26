@@ -1,0 +1,293 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+	font-family: 'Instrument Sans';
+	font-display: swap;
+	src: url(/assets/fonts/InstrumentSans-VariableFont_wdth\,wght.woff2) format('woff2');
+}
+
+body {
+
+	font-family: 'Instrument Sans';
+}
+
+:root {
+	--color-c1: #003A8C;
+	--color-c2: #0053D6;
+	--color-c3: #2EC9E8;
+	--color-c4: #fff;
+}
+
+h1 {
+	font-size: clamp(1.8rem, 4vw, 3.4rem);
+}
+
+p {
+	font-size: clamp(11px, 4vw, 18px);
+}
+
+.border {
+	border: solid 1px red;
+}
+
+.container__header {
+	max-width: min(1200px, 85vw);
+}
+
+.container__section {
+	margin: 0 auto;
+	max-width: min(1240px, 90vw);
+}
+
+.container__section__hero {
+	margin: 0 auto;
+	max-width: min(1500px, 90vw);
+}
+
+#hero {
+	background: var(--color-c2);
+	height: 80vh;
+}
+
+#hero .container__section__hero .box_info,
+#hero .container__section__hero .box_img {
+	flex: 1;
+}
+
+.cta__box {
+	margin-top: 30px;
+	display: flex;
+	gap: 20px;
+}
+
+button {
+	font-size: medium;
+	cursor: pointer;
+	padding: 18px 25px;
+	border-radius: 4px;
+	transition: all;
+}
+
+#cta1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 50%;
+	border: solid 1px var(--color-c4);
+	background: var(--color-c4);
+	color: var(--color-c1);
+}
+
+#cta2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 50%;
+	background: none;
+	border: solid 1px var(--color-c4);
+	color: var(--color-c4);
+}
+
+#cta1:hover,
+#cta2:hover {
+	transition: .2s;
+	background: var(--color-c3);
+	color: var(--color-c4);
+	border: solid 1px var(--color-c2);
+}
+
+#hero .box_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+
+#hero .box_info p,
+#hero .box_info h1 {
+	color: var(--color-c4);
+}
+
+#hero .container__section__hero {
+	height: 100%;
+	display: flex;
+	gap: 10px;
+}
+
+header {
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 100px;
+	transition: box-shadow 0.3s ease;
+	z-index: 999;
+}
+
+
+header.scrolled {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.logo img {
+	width: 200px;
+}
+
+
+nav {
+	display: flex;
+	gap: 30px;
+}
+
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	font-weight: 500;
+	font-size: 1rem;
+}
+
+
+/* Mobile */
+.hamburger {
+	display: none;
+	flex-direction: column;
+	gap: 4px;
+	cursor: pointer;
+}
+
+.hamburger span {
+	width: 25px;
+	height: 3px;
+	background: #333;
+}
+
+#spin{
+	color: var(--color-c4);
+	padding: 20px 0 20px ;
+	text-align: center;
+	background: var(--color-c1);
+}
+
+.fake-bullet {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fake-bullet img {
+	filter: brightness(0) invert(1);
+	width: 120px;
+}
+
+
+.text-slider {
+	overflow: hidden;
+	background: var(--color-c1);
+	padding: 1rem 0;
+}
+
+.text-slider__inner {
+	gap: 100px;
+	display: flex;
+	width: max-content;
+	animation: scroll 40s linear infinite;
+}
+
+.text-slider__inner span {
+	flex: none;
+	padding: 0 2rem;
+	white-space: nowrap;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+
+@media(max-width: 1200px) {
+	.container__section {
+		margin: 0 auto;
+		max-width: 90%;
+		flex-direction: column;
+	}
+
+	.container__section__hero {
+		padding: 100px 0 100px;
+		margin: 0 auto;
+		max-width: 90%;
+		flex-direction: column;
+	}
+
+	#hero .box_img {
+		display: none;
+	}
+
+	#hero {
+		height: auto;
+	}
+
+	.cta__box {
+		flex-direction: column;
+	}
+
+	#cta1,
+	#cta2 {
+		width: 100% !important;
+		font-size: small;
+	}
+}
+
+@media (max-width: 768px) {
+	header img {
+		width: 150px !important;
+	}
+
+	.text-slider__inner {
+		gap: 10px;
+	}
+
+	.fake-bullet img {
+		width: 60px;
+	}
+
+	header {
+		padding: 15px 25px;
+	}
+
+	nav {
+		position: fixed;
+		top: 70px;
+		right: -100%;
+		width: 70%;
+		height: 100vh;
+		background: #fff;
+		flex-direction: column;
+		padding: 40px;
+		gap: 20px;
+		transition: right 0.3s ease;
+	}
+
+	nav.open {
+		right: 0;
+	}
+
+	.hamburger {
+		display: flex;
+	}
+}
