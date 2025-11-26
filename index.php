@@ -13,7 +13,7 @@ require_once __DIR__ . '/config.php';
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
   </noscript>
-	<link rel="stylesheet" href="/css/styles.css" <?= $time ?>>
+	<link rel="stylesheet" href="css/styles.css" <?= $time ?>>
 
 	<title>Conecta</title>
 </head>
