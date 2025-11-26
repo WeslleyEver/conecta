@@ -1,7 +1,7 @@
 <header id="header">
 
 	<div class="logo">
-		<img src="/assets/img/logo.png" alt="">
+		<img src="assets/img/logo.png" alt="">
 	</div>
 
 	<div class="container__header">
