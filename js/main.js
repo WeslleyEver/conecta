@@ -25,3 +25,24 @@ document.body.style.paddingTop = headerHeight + 'px';
 window.addEventListener('resize', ajustarPadding);
 window.addEventListener('load', ajustarPadding);
 ajustarPadding();
+
+ const faqItems = document.querySelectorAll(".faq-item");
+
+  faqItems.forEach((item) => {
+    const question = item.querySelector(".faq-question");
+
+    question.addEventListener("click", () => {
+      faqItems.forEach((i) => {
+        if (i !== item) {
+          i.classList.remove("active");
+        }
+      });
+      item.classList.toggle("active");
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".faq")) {
+      faqItems.forEach((i) => i.classList.remove("active"));
+    }
+  });

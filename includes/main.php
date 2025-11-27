@@ -13,6 +13,9 @@
 						<button id="cta1">Conheça os planos</button>
 						<button id="cta2">Quero fazer parte da Conecta</button>
 					</div>
+					<small>
+						Aprenda com profissionais de mercado, conquiste certificações e tenha acesso a oportunidades reais tudo em um só lugar.
+					</small>
 				</div>
 				<div class="box_img">img</div>
 			</div>
@@ -45,5 +48,62 @@
 				</div>
 			</div>
 		</section>
-		<section>ee</section>
+		<section id="faq" class="faq">
+			<div class="container__section">
+				<h1 class="c-bl2">Dúvidas Frequentes</h1>
+
+				<div class="faq-item">
+					<div class="faq-question">
+						<h3>Preciso ter experiência para participar?
+						</h3>
+						<span class="faq-icon">+</span>
+					</div>
+					<div class="faq-answer">
+						Não! A Conecta é feita para quem quer começar ou crescer profissionalmente, mesmo sem experiência anterior.
+
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<div class="faq-question">
+						<h3>Recebo certificado?</h3>
+						<span class="faq-icon">+</span>
+					</div>
+					<div class="faq-answer">
+						Sim. Todos os cursos e mentorias geram certificados válidos, inclusive para horas complementares.
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<div class="faq-question">
+						<h3>Posso cancelar quando quiser?</h3>
+						<span class="faq-icon">+</span>
+					</div>
+					<div class="faq-answer">
+						Sim. Os planos são mensais e sem fidelidade.
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<div class="faq-question">
+						<h3>O que muda entre os planos?</h3>
+						<span class="faq-icon">+</span>
+					</div>
+					<div class="faq-answer">
+						Cada plano <strong class="c-bl1">libera mais recursos e oportunidades profissionais</strong> — desde empresas pequenas até multinacionais parceiras.
+					</div>
+				</div>
+
+				<div class="faq-item">
+					<div class="faq-question">
+						<h3>A plataforma funciona no celular?</h3>
+						<span class="faq-icon">+</span>
+					</div>
+					<div class="faq-answer">
+						Sim! 100% online e acessível de qualquer dispositivo.
+					</div>
+				</div>
+			</div>
+
+		</section>
 	</main>
