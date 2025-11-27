@@ -13,7 +13,7 @@ require_once __DIR__ . '/config.php';
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
   </noscript>
-	<link rel="stylesheet" href="<?= BASE_URL ?>/css/styles.css" <?= $time ?>>
+	<link rel="stylesheet" href="<?= BASE_URL ?>/css/styles.css?v=<?= $time ?>">
 
 	<title>Conecta</title>
 </head>
@@ -23,6 +23,6 @@ require_once __DIR__ . '/config.php';
 
 	<?php include INCLUDES_PATH . '/main.php'?>
 </body>
-<script src="<?= BASE_URL ?>/js/main.js" <?= $time ?>></script>
+<script src="<?= BASE_URL ?>/js/main.js?v=<?= $time ?>"></script>
 
 </html>
