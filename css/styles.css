@@ -69,6 +69,15 @@ p {
 	max-width: min(1500px, 90vw);
 }
 
+#hero .box_img {
+	background-image: url(/assets/img/h-img.png);
+	background-position: center;
+	height: auto;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 #hero {
 	background: var(--color-c2);
 	height: 80vh;
@@ -275,7 +284,7 @@ nav a {
 	z-index: 1;
 	position: relative;
 	width: 370px;
-	height: 320px;
+	height: 340px;
 	background: var(--color-c2);
 	display: flex;
 	flex-direction: column;
@@ -357,6 +366,8 @@ nav a {
 }
 
 .card__bottom li {
+	color: var(--color-c1);
+	font-weight: bold;
 	margin-top: 20px;
 	font-size: small;
 	display: flex;
@@ -544,7 +555,7 @@ section.faq h2 {
 		padding: 15px 25px;
 	}
 
-	nav a{
+	nav a {
 		color: var(--color-c4);
 	}
 

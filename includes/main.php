@@ -17,7 +17,7 @@
 						Aprenda com profissionais de mercado, conquiste certificações e tenha acesso a oportunidades reais tudo em um só lugar.
 					</small>
 				</div>
-				<div class="box_img">img</div>
+				<div class="box_img"></div>
 			</div>
 		</section>
 		<section id="spin">
@@ -65,9 +65,7 @@
 										Ideal para quem está começando sua jornada profissional.
 									</p>
 									<h2>R$49 <span>/mês</span></h2>
-									<button class="card-button"
-										data-url="https://app.beanmusicpromotion.com/releases/checkout?subscribe=1">Quero
-										esse plano</button>
+									<button class="card-button">Assinar agora</button>
 									<small>
 										Perfeito para quem quer dar o primeiro passo com segurança e começar a construir experiência real.
 									</small>
@@ -111,9 +109,7 @@
 										Para quem já quer dar o próximo passo e se destacar.
 									</p>
 									<h2>R$69 <span>/mês</span></h2>
-									<button class="card-button"
-										data-url="https://app.beanmusicpromotion.com/releases/checkout?subscribe=2">Quero
-										esse plano</button>
+									<button class="card-button">Assinar agora</button>
 									<small>
 										Seu perfil ganha mais visibilidade, ampliando suas chances em empresas maiores.
 									</small>
@@ -164,8 +160,7 @@
 									</p>
 									<h2>R$99 <span>/mês</span></h2>
 									<button class="card-button"
-										data-url="https://app.beanmusicpromotion.com/releases/checkout?subscribe=3"
-										class="card-button">Quero esse plano</button>
+										class="card-button">Assinar agora</button>
 									<small>
 										O plano ideal para quem quer se destacar, ser visto por grandes empresas e acelerar a carreira.
 									</small>
