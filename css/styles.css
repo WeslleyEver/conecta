@@ -90,7 +90,7 @@ footer .container__section {
 }
 
 #hero .box_img {
-	background-image: url(/assets/img/h-img.png);
+	background-image: url(../assets/img/h-img.png);
 	background-position: center;
 	height: auto;
 	width: 100%;
