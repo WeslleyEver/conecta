@@ -231,6 +231,9 @@ section.faq h2 {
 	margin-bottom: 2rem;
 }
 
+#faq h1{
+	margin-bottom: 50px;
+}
 .faq-item h3{
 	color: var(--color-c1);
 }
