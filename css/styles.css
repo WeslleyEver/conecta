@@ -520,13 +520,15 @@ section.faq h2 {
 	}
 
 	.card__bottom,
-	.card{
+	.card {
 		width: 100%;
 	}
-	.card h1{
+
+	.card h1 {
 		font-size: 30px;
 	}
-	.card{
+
+	.card {
 		height: 340px;
 	}
 
@@ -542,13 +544,18 @@ section.faq h2 {
 		padding: 15px 25px;
 	}
 
+	nav a{
+		color: var(--color-c4);
+	}
+
 	nav {
 		position: fixed;
-		top: 70px;
+		top: 90px;
 		right: -100%;
 		width: 70%;
 		height: 100vh;
-		background: #fff;
+		backdrop-filter: blur(12px);
+		background: rgba(100, 99, 99, 0.3);
 		flex-direction: column;
 		padding: 40px;
 		gap: 20px;
