@@ -35,6 +35,10 @@ body {
 	color: var(--color-c3);
 }
 
+.c-bl4 {
+	color: var(--color-c4);
+}
+
 .txt-c {
 	text-align: center !important;
 }
@@ -59,9 +63,25 @@ p {
 	max-width: min(1200px, 85vw);
 }
 
+footer p{
+	font-weight: bold;
+	color: var(--color-c4);
+	padding: 50px 0 50px;
+}
+
+footer{
+	background:var(--color-c2) ;
+}
+
+footer .container__section {
+	padding:50px 0 50px;
+	margin: 0 auto;
+	max-width: min(1200px, 90vw);
+}
+
 .container__section {
 	margin: 0 auto;
-	max-width: min(1240px, 90vw);
+	max-width: min(1500px, 90vw);
 }
 
 .container__section__hero {
@@ -80,7 +100,7 @@ p {
 
 #hero {
 	background: var(--color-c2);
-	height: 80vh;
+	height: 90vh;
 }
 
 #hero .container__section__hero .box_info,
@@ -95,7 +115,7 @@ p {
 }
 
 button {
-	font-size: medium;
+	font-size: 14px;
 	cursor: pointer;
 	padding: 22px 25px;
 	border-radius: 4px;
@@ -111,6 +131,7 @@ button {
 	color: var(--color-c1);
 }
 
+#cta-f,
 #cta2 {
 	font-weight: bold;
 	text-transform: uppercase;
@@ -120,6 +141,7 @@ button {
 	color: var(--color-c4);
 }
 
+#cta-f:hover,
 #cta1:hover,
 #cta2:hover {
 	transition: .2s;
@@ -138,6 +160,33 @@ button {
 #hero .box_info p,
 #hero .box_info h1 {
 	color: var(--color-c4);
+}
+
+#impacto .box__info,
+#conecta .box__info,
+#mercado .box__info{
+	flex: 1;
+}
+
+#impacto .box__img,
+#conecta .box__img,
+#mercado .box__img{
+	flex: 1;
+}
+
+#impacto p,
+#conecta p,
+#mercado p{
+	margin-top: 20px;
+	color: var(--color-c1);
+}	
+
+#impacto .container__section,	
+#conecta .container__section,	
+#mercado .container__section{	
+	padding-top: 50px;
+	display: flex;
+	gap: 20px;
 }
 
 #hero .container__section__hero {
@@ -178,13 +227,32 @@ nav {
 }
 
 
+nav #cta-h:hover{
+	transition: .2s;
+	border-radius: 8px;
+	border: solid 1px var(--color-c3);
+	background: var(--color-c3);
+}
+nav #cta-h{
+	border-radius: 8px;
+	background: var(--color-c2);
+	padding: 15px 20px;
+	border: solid 1px var(--color-c2);
+	color: var(--color-c4);
+}
 nav a {
+	transition: all;
+	padding: 15px 20px;
 	text-decoration: none;
-	color: #333;
+	color: var(--color-c1);
 	font-weight: 500;
 	font-size: 1rem;
 }
 
+nav a:hover{
+	transition: .2s;
+	color:var(--color-c3);
+}
 
 /* Mobile */
 .hamburger {
@@ -302,7 +370,7 @@ nav a {
 	position: relative;
 	width: 370px;
 	height: auto;
-	background: transparent;
+	background: var(--color-c4);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -518,6 +586,7 @@ section.faq h2 {
 		flex-direction: column;
 	}
 
+	#cta-f,
 	#cta1,
 	#cta2 {
 		width: 100% !important;

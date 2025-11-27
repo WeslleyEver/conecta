@@ -48,10 +48,36 @@
 				</div>
 			</div>
 		</section>
+		<section id="mercado">
+			<div class="container__section">
+				<div class="box__info">
+					<h1 class="c-bl1">O mercado mudou.<br> E quem não se atualiza, fica pra trás.</h1>
+					<p>
+						Hoje, as empresas procuram <strong>profissionais que unem conhecimento técnico, atitude e visão de futuro.</strong><br><br>
+						Mas o que falta para a maioria dos jovens é <strong>acesso a capacitação prática e oportunidades reais de trabalho.</strong><br><br>
+						A Conecta nasceu para mudar isso criando um caminho contínuo de aprendizado, evolução e conexão com empresas que acreditam no desenvolvimento de novos talentos.
+					</p>
+				</div>
+				<div class="box__img border">img</div>
+			</div>
+		</section>
+		<section id="conecta">
+			<div class="container__section">
+				<div class="box__img border">img</div>
+				<div class="box__info">
+					<h1 class="c-bl1">Um único lugar para aprender, crescer e conquistar sua <strong class="c-bl3">oportunidade.</strong></h1>
+					<p>
+						Com os planos da Conecta, você tem acesso a cursos, mentorias e trilhas de carreira que acompanham o ritmo do mercado. <br><br>
+						Além de aprender com profissionais renomados, você entra no radar das empresas parceiras com acesso a oportunidades reais de acordo com seu plano de assinatura.
+
+					</p>
+				</div>
+			</div>
+		</section>
 		<section id="plan">
 			<div class="container__section" id="plan-container">
 				<div class="box__info">
-					<h1 class="txt-c">
+					<h1 class="txt-c c-bl1">
 						Planos <strong class="c-bl3">Conecta</strong>
 					</h1>
 				</div>
@@ -207,6 +233,19 @@
 				</div>
 			</div>
 		</section>
+		<section id="impacto">
+			<div class="container__section">
+				<div class="box__info">
+					<h1 class="c-bl1">Aprenda com quem está no mercado e se conecte com quem faz a diferença.</strong></h1>
+					<p>
+						A Conecta reúne mentores, professores e empresas parceiras comprometidos com o futuro do trabalho.
+						A Conecta é a ponte entre o aprendizado e a realização profissional.
+						Mentor da Comunidade Conecta.
+					</p>
+				</div>
+				<div class="box__img border">img</div>
+			</div>
+		</section>
 		<section id="faq" class="faq">
 			<div class="container__section">
 				<h1 class="c-bl2">Dúvidas Frequentes</h1>
@@ -265,4 +304,13 @@
 			</div>
 
 		</section>
+		<footer>
+			<div class="container__section txt-c">
+				<h1 class="c-bl4">Pronto para conquistar o seu espaço no <strong class="c-bl3">mercado?</strong></h1>
+				<p>
+					Aprenda, evolua e conecte-se com as melhores oportunidades tudo em um só lugar.
+				</p>
+				<button id="cta-f">Assinar agora e fazer parte da Conecta</button>
+			</div>
+		</footer>
 	</main>
