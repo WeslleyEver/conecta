@@ -311,7 +311,7 @@
 				<p>
 					Aprenda, evolua e conecte-se com as melhores oportunidades tudo em um só lugar.
 				</p>
-				<button id="cta-f">Assinar agora e fazer parte da Conecta</button>
+				<button id="cta-f" onclick="window.location.href='#plan'">Assinar agora e fazer parte da Conecta</button>
 			</div>
 		</footer>
 	</main>
