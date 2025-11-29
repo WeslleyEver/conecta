@@ -240,6 +240,14 @@ button {
 	flex: 1;
 }
 
+
+#mercado .box__img,
+#conecta .box__img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #impacto .box__img,
 #conecta .box__img,
 #mercado .box__img {
@@ -425,7 +433,7 @@ nav a:hover {
 	color: var(--color-c4);
 	z-index: 1;
 	position: relative;
-	width: 370px;
+	width: 320px;
 	height: 340px;
 	background: var(--color-c2);
 	display: flex;
@@ -678,6 +686,11 @@ section.faq h2 {
 }
 
 @media (max-width: 768px) {
+
+	#plan .container__section {
+		padding: 15px;
+	}
+
 	header img {
 		width: 150px !important;
 	}

@@ -24,7 +24,7 @@ require_once __DIR__ . '/config.php';
 
 	<?php include INCLUDES_PATH . '/main.php'?>
 </body>
-<script src="<?= BASE_URL ?>/js/main.js?v=<?= $time ?>"></script>
+<!-- <script src="<?= BASE_URL ?>/js/main.js?v=<?= $time ?>"></script> -->
 <script src="js/main.js?v=<?= $time ?>"></script>
 
 </html>

@@ -10,7 +10,7 @@
 						A Conecta é a plataforma que <strong>te prepara, te desenvolve e te conecta às melhores oportunidades do mercado</strong>, unindo aprendizado, mentorias e contratos reais de desenvolvimento profissional.
 					</p>
 					<div class="cta__box">
-						<button id="cta1" onclick="window.location.href='#plan'">Conheça os planos</button>
+						<!-- <button id="cta1" onclick="window.location.href='#plan'">Conheça os planos</button> -->
 						<button id="cta2" onclick="window.location.href='#conecta'">Quero fazer parte da Conecta</button>
 					</div>
 					<small>
