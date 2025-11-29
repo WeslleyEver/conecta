@@ -5,6 +5,7 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
+
 @font-face {
 	font-family: 'Instrument Sans';
 	font-display: swap;
@@ -63,39 +64,110 @@ p {
 	max-width: min(1200px, 85vw);
 }
 
-footer p{
+footer p {
 	font-weight: bold;
 	color: var(--color-c4);
 	padding: 50px 0 50px;
 }
 
-footer{
-	background:var(--color-c2) ;
+footer {
+	background: var(--color-c2);
 }
 
 footer .container__section {
-	padding:50px 0 50px;
+	padding: 50px 0 50px;
 	margin: 0 auto;
 	max-width: min(1200px, 90vw);
 }
 
+#conecta {
+	height: 100vh;
+	background-image: url(../assets/img/xp.jpg);
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
 .container__section {
+	padding-bottom: 50px;
 	margin: 0 auto;
 	max-width: min(1500px, 90vw);
 }
 
 .container__section__hero {
 	margin: 0 auto;
-	max-width: min(1500px, 90vw);
+	max-width: min(1520px, 90vw);
+}
+
+#impacto .container__section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#impacto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#impacto p{
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	color: var(--color-c4) !important;
+}
+
+#impacto {
+	height: 50vh;
+  position: relative;
+  background: center / cover no-repeat url("../assets/img/xp.jpg");
+}
+
+#impacto::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* 0.5 = escurecimento */
+  z-index: 1;
+}
+
+#impacto > * {
+  position: relative;
+  z-index: 2; /* conteúdo acima do overlay */
+}
+
+#mercado .box__img,
+#hero .box_img {
+	background-position: center;
+	background-size: cover;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#conecta .box__info,
+#mercado .box__info {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+#conecta {
+	background: #CFE7F6;
+}
+
+#conecta .box__img img,
+#mercado .box__img img {
+	width: 80%;
 }
 
 #hero .box_img {
-	background-image: url(../assets/img/h-img.png);
-	background-position: center;
-	height: auto;
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-image: url(../assets/img/hero-img.png);
 }
 
 #hero {
@@ -164,26 +236,26 @@ button {
 
 #impacto .box__info,
 #conecta .box__info,
-#mercado .box__info{
+#mercado .box__info {
 	flex: 1;
 }
 
 #impacto .box__img,
 #conecta .box__img,
-#mercado .box__img{
+#mercado .box__img {
 	flex: 1;
 }
 
 #impacto p,
 #conecta p,
-#mercado p{
+#mercado p {
 	margin-top: 20px;
 	color: var(--color-c1);
-}	
+}
 
-#impacto .container__section,	
-#conecta .container__section,	
-#mercado .container__section{	
+#impacto .container__section,
+#conecta .container__section,
+#mercado .container__section {
 	padding-top: 50px;
 	display: flex;
 	gap: 20px;
@@ -227,19 +299,21 @@ nav {
 }
 
 
-nav #cta-h:hover{
+nav #cta-h:hover {
 	transition: .2s;
 	border-radius: 8px;
 	border: solid 1px var(--color-c3);
 	background: var(--color-c3);
 }
-nav #cta-h{
+
+nav #cta-h {
 	border-radius: 8px;
 	background: var(--color-c2);
 	padding: 15px 20px;
 	border: solid 1px var(--color-c2);
 	color: var(--color-c4);
 }
+
 nav a {
 	transition: all;
 	padding: 15px 20px;
@@ -249,9 +323,9 @@ nav a {
 	font-size: 1rem;
 }
 
-nav a:hover{
+nav a:hover {
 	transition: .2s;
-	color:var(--color-c3);
+	color: var(--color-c3);
 }
 
 /* Mobile */
@@ -344,7 +418,7 @@ nav a:hover{
 
 #plan .container__section {
 	max-width: min(1500px, 100vw);
-	padding-top: 50px;
+	padding: 50px 0 50px;
 }
 
 .card {
@@ -561,6 +635,15 @@ section.faq h2 {
 
 
 @media(max-width: 1200px) {
+
+	#impacto p{
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	color: var(--color-c4) !important;
+}
+
 	.container__section {
 		margin: 0 auto;
 		max-width: 90%;

@@ -10,8 +10,8 @@
 						A Conecta é a plataforma que <strong>te prepara, te desenvolve e te conecta às melhores oportunidades do mercado</strong>, unindo aprendizado, mentorias e contratos reais de desenvolvimento profissional.
 					</p>
 					<div class="cta__box">
-						<button id="cta1">Conheça os planos</button>
-						<button id="cta2">Quero fazer parte da Conecta</button>
+						<button id="cta1" onclick="window.location.href='#plan'">Conheça os planos</button>
+						<button id="cta2" onclick="window.location.href='#conecta'">Quero fazer parte da Conecta</button>
 					</div>
 					<small>
 						Aprenda com profissionais de mercado, conquiste certificações e tenha acesso a oportunidades reais tudo em um só lugar.
@@ -58,16 +58,18 @@
 						A Conecta nasceu para mudar isso criando um caminho contínuo de aprendizado, evolução e conexão com empresas que acreditam no desenvolvimento de novos talentos.
 					</p>
 				</div>
-				<div class="box__img border">img</div>
+				<div class="box__img"><img src="/assets/img/mercado.jpg" alt=""></div>
 			</div>
 		</section>
 		<section id="conecta">
 			<div class="container__section">
-				<div class="box__img border">img</div>
+				<div class="box__img">
+					<img src="/assets/img/fog.jpg" alt="">
+				</div>
 				<div class="box__info">
 					<h1 class="c-bl1">Um único lugar para aprender, crescer e conquistar sua <strong class="c-bl3">oportunidade.</strong></h1>
 					<p>
-						Com os planos da Conecta, você tem acesso a cursos, mentorias e trilhas de carreira que acompanham o ritmo do mercado. <br><br>
+						Com os <strong class="c-bl1">planos da Conecta</strong>, você tem acesso a cursos, mentorias e trilhas de carreira que acompanham o ritmo do mercado. <br><br>
 						Além de aprender com profissionais renomados, você entra no radar das empresas parceiras com acesso a oportunidades reais de acordo com seu plano de assinatura.
 
 					</p>
@@ -236,14 +238,13 @@
 		<section id="impacto">
 			<div class="container__section">
 				<div class="box__info">
-					<h1 class="c-bl1">Aprenda com quem está no mercado e se conecte com quem faz a diferença.</strong></h1>
-					<p>
+					<h1 class="c-bl4 txt-c">Aprenda com quem está no mercado e se conecte com quem faz a diferença.</strong></h1>
+					<p class="c-bl4">
 						A Conecta reúne mentores, professores e empresas parceiras comprometidos com o futuro do trabalho.
 						A Conecta é a ponte entre o aprendizado e a realização profissional.
 						Mentor da Comunidade Conecta.
 					</p>
 				</div>
-				<div class="box__img border">img</div>
 			</div>
 		</section>
 		<section id="faq" class="faq">
