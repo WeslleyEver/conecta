@@ -58,13 +58,13 @@
 						A Conecta nasceu para mudar isso criando um caminho contínuo de aprendizado, evolução e conexão com empresas que acreditam no desenvolvimento de novos talentos.
 					</p>
 				</div>
-				<div class="box__img"><img src="/assets/img/mercado.jpg" alt=""></div>
+				<div class="box__img"><img src="assets/img/mercado.jpg" alt=""></div>
 			</div>
 		</section>
 		<section id="conecta">
 			<div class="container__section">
 				<div class="box__img">
-					<img src="/assets/img/fog.jpg" alt="">
+					<img src="assets/img/fog.jpg" alt="">
 				</div>
 				<div class="box__info">
 					<h1 class="c-bl1">Um único lugar para aprender, crescer e conquistar sua <strong class="c-bl3">oportunidade.</strong></h1>
